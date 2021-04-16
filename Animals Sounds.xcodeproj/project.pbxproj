@@ -14,6 +14,12 @@
 		DF37C185262929550050C1FC /* Animals_Sounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF37C183262929550050C1FC /* Animals_Sounds.xcdatamodeld */; };
 		DF37C187262929560050C1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF37C186262929560050C1FC /* Assets.xcassets */; };
 		DF37C18A262929560050C1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF37C188262929560050C1FC /* LaunchScreen.storyboard */; };
+		DF37C199262929F20050C1FC /* gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF37C193262929F20050C1FC /* gato.mp3 */; };
+		DF37C19A262929F20050C1FC /* ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF37C194262929F20050C1FC /* ovelha.mp3 */; };
+		DF37C19B262929F20050C1FC /* macaco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF37C195262929F20050C1FC /* macaco.mp3 */; };
+		DF37C19C262929F20050C1FC /* cao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF37C196262929F20050C1FC /* cao.mp3 */; };
+		DF37C19D262929F20050C1FC /* leao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF37C197262929F20050C1FC /* leao.mp3 */; };
+		DF37C19E262929F20050C1FC /* vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF37C198262929F20050C1FC /* vaca.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		DF37C186262929560050C1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF37C189262929560050C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF37C18B262929560050C1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF37C193262929F20050C1FC /* gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gato.mp3; sourceTree = "<group>"; };
+		DF37C194262929F20050C1FC /* ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ovelha.mp3; sourceTree = "<group>"; };
+		DF37C195262929F20050C1FC /* macaco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = macaco.mp3; sourceTree = "<group>"; };
+		DF37C196262929F20050C1FC /* cao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cao.mp3; sourceTree = "<group>"; };
+		DF37C197262929F20050C1FC /* leao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leao.mp3; sourceTree = "<group>"; };
+		DF37C198262929F20050C1FC /* vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vaca.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 		DF37C179262929550050C1FC /* Animals Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				DF37C192262929F20050C1FC /* sounds */,
 				DF37C17A262929550050C1FC /* AppDelegate.swift */,
 				DF37C17C262929550050C1FC /* SceneDelegate.swift */,
 				DF37C17E262929550050C1FC /* ViewController.swift */,
@@ -68,6 +81,19 @@
 				DF37C183262929550050C1FC /* Animals_Sounds.xcdatamodeld */,
 			);
 			path = "Animals Sounds";
+			sourceTree = "<group>";
+		};
+		DF37C192262929F20050C1FC /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DF37C193262929F20050C1FC /* gato.mp3 */,
+				DF37C194262929F20050C1FC /* ovelha.mp3 */,
+				DF37C195262929F20050C1FC /* macaco.mp3 */,
+				DF37C196262929F20050C1FC /* cao.mp3 */,
+				DF37C197262929F20050C1FC /* leao.mp3 */,
+				DF37C198262929F20050C1FC /* vaca.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +154,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF37C18A262929560050C1FC /* LaunchScreen.storyboard in Resources */,
+				DF37C199262929F20050C1FC /* gato.mp3 in Resources */,
+				DF37C19E262929F20050C1FC /* vaca.mp3 in Resources */,
+				DF37C19C262929F20050C1FC /* cao.mp3 in Resources */,
+				DF37C19A262929F20050C1FC /* ovelha.mp3 in Resources */,
 				DF37C187262929560050C1FC /* Assets.xcassets in Resources */,
+				DF37C19B262929F20050C1FC /* macaco.mp3 in Resources */,
 				DF37C182262929550050C1FC /* Main.storyboard in Resources */,
+				DF37C19D262929F20050C1FC /* leao.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
